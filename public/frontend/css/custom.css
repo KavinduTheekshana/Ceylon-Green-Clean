@@ -1,0 +1,13 @@
+.logo-main {
+    max-width: 200px !important;
+    width: 100% !important;
+}
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.active{
+    color: var(--primary-color) !important;
+}
