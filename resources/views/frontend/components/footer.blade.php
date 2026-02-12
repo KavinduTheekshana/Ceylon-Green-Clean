@@ -43,24 +43,26 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
-                  <div class="widget">
-                      <div class="text-white fw-bold"><i class="icofont-wall-clock me-2 id-color-2"></i>We're Open</div>
-                      Monday - Saturday 08.00 - 18.00
+                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
+                        <div class="widget">
+                            <h3 style="color: #ffffff;">Contact Info</h3>
 
-                      <div class="spacer-20"></div>
 
-                      <div class="text-white fw-bold"><i class="icofont-location-pin me-2 id-color-2"></i>
-                          Locations</div>
-                          Derby, Nottingham, Leicester, Sheffield, Birmingham, Loughborough
+                            <div class="text-white fw-bold"><i class="icofont-ui-call me-2 id-color-2"></i>Call / WhatsApp</div>
+                            <a href="tel:+94768002660" class="text-white footer-contact-link">+94 76 800 26 60</a><br>
+                            <a href="https://wa.me/94768002660" class="text-white footer-contact-link">+94 76 800 26 60 (WhatsApp)</a>
 
-                      <div class="spacer-20"></div>
+                            <div class="spacer-20"></div>
 
-                      <div class="text-white fw-bold"><i class="icofont-envelope me-2 id-color-2"></i>Send a Message
-                      </div>
-                      contact@ceylondeepcleaners.co.uk
-                  </div>
-              </div>
+                            <div class="text-white fw-bold"><i class="icofont-envelope me-2 id-color-2"></i>Email</div>
+                            <a href="mailto:Info@ceylongreenclean.com" class="text-white footer-contact-link">Info@ceylongreenclean.com</a>
+                            <div class="spacer-20"></div>
+
+                            <div class="text-white fw-bold"><i class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
+                            No.25, Linkwood place, Wehera,<br>
+                            Kurunegala, Sri Lanka.
+                        </div>
+                    </div>
           </div>
       </div>
       <div class="subfooter">
