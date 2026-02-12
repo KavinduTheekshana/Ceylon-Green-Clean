@@ -1,4 +1,4 @@
-<section class="relative overflow-hidden" data-bgimage="url(frontend/images/background/1.webp) center">
+<section class="relative overflow-hidden" data-bgimage="url(frontend/images/background/5454343.webp) center">
 
     <div class="container relative z-1000">
         <div class="row g-4 align-items-center justify-content-between">
@@ -21,8 +21,12 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="{{ asset('frontend/images/misc/4.webp') }}" class="w-100 wow fadeInUp" data-wow-delay=".8s"
+                <img src="{{ asset('frontend/images/misc/54235433653.webp') }}"
+                    class="w-100 wow fadeInUp"
+                    data-wow-delay=".8s"
+                    style="border-radius: 12px;"
                     alt="">
+
             </div>
 
         </div>
