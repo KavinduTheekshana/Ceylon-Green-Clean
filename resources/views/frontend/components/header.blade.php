@@ -8,9 +8,9 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="{{route('/')}}">
-                                        <img class="logo-main" src="{{ asset('frontend/images/logoweb.svg') }}" alt="" >
-                                        <img class="logo-scroll" src="{{ asset('frontend/images/logoweb.svg') }}" alt="" >
-                                        <img class="logo-mobile" src="{{ asset('frontend/images/logoweb.svg') }}" alt="" >
+                                        <img class="logo-main" src="{{ asset('frontend/images/ceylongreenclean.webp') }}" alt="" >
+                                        <img class="logo-scroll" src="{{ asset('frontend/images/ceylongreenclean.webp') }}" alt="" >
+                                        <img class="logo-mobile" src="{{ asset('frontend/images/ceylongreenclean.webp') }}" alt="" >
                                     </a>
                                 </div>
                                 <!-- logo close -->
