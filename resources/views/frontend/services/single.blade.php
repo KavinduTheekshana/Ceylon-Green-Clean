@@ -28,9 +28,27 @@
     </section>
 
     <section class="relative overflow-hidden">
+
+
+                    
+                    
         <div class="container">
             <div class="row g-4">
+                
                 <div class="col-lg-6">
+                    <div class="mb-4 overflow-hidden rounded-1">
+                        @if(!empty($service->image) && file_exists(public_path('storage/' . $service->image)))
+                            <img src="{{ asset('storage/' . $service->image) }}"
+                                class="w-100 img-fluid"
+                                style="max-height: 450px; object-fit: cover;"
+                                alt="{{ $service->title }}">
+                        @else
+                            <img src="{{ asset('frontend/images/placeholder.webp') }}"
+                                class="w-100 img-fluid"
+                                style="max-height: 450px; object-fit: cover;"
+                                alt="{{ $service->title }}">
+                        @endif
+                    </div>
                     <p class="lead">
                         {{ $service->description }}
                     </p>

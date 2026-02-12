@@ -6,6 +6,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\BlogController;
+
 
 
 Route::get('/', [HomeController::class, 'index'])->name('/');
@@ -16,6 +18,8 @@ Route::get('how', [HomeController::class, 'how'])->name('how');
 Route::get('services', [HomeController::class, 'services'])->name('services');
 Route::get('booking', [HomeController::class, 'booking'])->name('booking');
 Route::get('/galleries', [GalleryController::class, 'index'])->name('galleries');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.single');
 Route::get('/services/{slug}', [ServiceController::class, 'show'])->name('service.single');
 
 Route::post('/booking', [BookingController::class, 'store'])->name('booking.store');

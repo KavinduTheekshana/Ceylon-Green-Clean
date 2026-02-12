@@ -19,8 +19,8 @@
                                 <ul id="mainmenu">
                                     <li><a class="menu-item {{ request()->is('/') ? 'active' : '' }}" href="{{route('/')}}">Home</a></li>
                                     <li><a class="menu-item {{ request()->is('about') ? 'active' : '' }}" href="{{route('about')}}">About Us</a></li>
-                                    <li><a class="menu-item {{ request()->is('how') ? 'active' : '' }}" href="{{route('how')}}">How It Works</a></li>
                                     <li><a class="menu-item {{ request()->is('services') ? 'active' : '' }}" href="{{route('services')}}">Services</a></li>
+                                    <li><a class="menu-item {{ request()->is('blog') ? 'active' : '' }}" href="{{route('blog')}}">Blog</a></li>
                                     <li><a class="menu-item {{ request()->is('galleries') ? 'active' : '' }}" href="{{route('galleries')}}">Gallery</a></li>
                                     <li><a class="menu-item {{ request()->is('contact') ? 'active' : '' }}" href="{{route('contact')}}">Contact Us</a></li>
                                 </ul>
