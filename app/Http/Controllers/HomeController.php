@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Service;
 use App\Models\Testimonial;
 use Illuminate\Http\Request;
+use App\Models\Faq;
+
 
 class HomeController extends Controller
 {
@@ -24,7 +26,13 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('frontend.about.index');
+        // Fetch active FAQs ordered by your preferred method
+        // You might want to add 'order_column' to your FAQ model for custom ordering
+        $faqs = Faq::where('is_active', true)
+                   ->orderBy('id') // or orderBy('order_column')
+                   ->get();
+        
+        return view('frontend.about.index', compact('faqs'));
     }
 
     public function booking()
