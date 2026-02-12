@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         // 2️⃣ Seed all services
         $this->call([
             ServiceSeeder::class,
+            TestimonialSeeder::class,
 
         ]);
     }
