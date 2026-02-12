@@ -1,9 +1,9 @@
-<section class="pt-0 pb-40 relative overflow-hidden border-top">
+<section class="relative pt-0 pb-40 overflow-hidden border-top">
     <div class="container relative z-1000">
         <div class="spacer-double sm-hide"></div>
         <div class="row g-4 justify-content-between">
             <div class="col-lg-5">
-                <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Why Choose Us</div>
+                <div class="mb-3 subtitle s2 wow fadeInUp" data-wow-delay=".0s">Why Choose Us</div>
                 <h2 class="wow fadeInUp" data-wow-delay=".2s">Top Six Reasons to Trust Our Cleaning</h2>
                 <p class="wow fadeInUp" data-wow-delay=".4s">Enjoy a spotless space with our expert cleaning team. Affordable, eco-friendly, and tailored to your needs!</p>
 
@@ -14,7 +14,7 @@
                 <div class="de-timeline-s2 color">
                     <div class="d-item">
                         <div class="d-text">
-                            <div class="d-icon text-dark">
+                            <div class="d-icon ">
                                 1
                             </div>
                             <h4>Experienced and Trained Staff</h4>
@@ -24,7 +24,7 @@
 
                     <div class="d-item">
                         <div class="d-text">
-                            <div class="d-icon text-dark">
+                            <div class="d-icon ">
                                 2
                             </div>
                             <h4>Customized Cleaning Solutions</h4>
@@ -34,7 +34,7 @@
 
                     <div class="d-item">
                         <div class="d-text">
-                            <div class="d-icon text-dark">
+                            <div class="d-icon ">
                                 3
                             </div>
                             <h4>High-Quality Products and Equipment</h4>
@@ -44,7 +44,7 @@
 
                     <div class="d-item">
                         <div class="d-text">
-                            <div class="d-icon text-dark">
+                            <div class="d-icon ">
                                 4
                             </div>
                             <h4>Reliability and Trustworthiness</h4>
@@ -54,7 +54,7 @@
 
                     <div class="d-item">
                         <div class="d-text">
-                            <div class="d-icon text-dark">
+                            <div class="d-icon ">
                                 5
                             </div>
                             <h4>Attention to Detail</h4>
@@ -64,7 +64,7 @@
 
                     <div class="d-item no-border">
                         <div class="d-text">
-                            <div class="d-icon text-dark">
+                            <div class="d-icon ">
                                 6
                             </div>
                             <h4>Satisfaction Guaranteed</h4>

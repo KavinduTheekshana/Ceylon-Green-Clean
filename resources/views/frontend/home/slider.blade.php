@@ -4,7 +4,7 @@
         <div class="row g-4 align-items-center justify-content-between">
             <div class="col-lg-5">
                 <div class="relative z-1000">
-                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Ceylon Deep Cleaners</div>
+                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Ceylon Green Clean</div>
                     <h1 class="wow fadeInUp" data-wow-delay=".2s">We Make Your Space <span id="type-text"></span></h1>
 
                     <p class="wow fadeInUp" data-wow-delay=".4s">Enjoy a spotless space with our expert cleaning team.
@@ -33,7 +33,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="text-center">
                     <img src="{{ asset('frontend/images/icons/white/labor.webp') }}"
-                        class="bg-color w-30 p-15 rounded-10 mb-3 wow scaleIn" alt="">
+                        class="mb-3 bg-color w-30 p-15 rounded-10 wow scaleIn" alt="">
                     <div class="relative wow fadeInUp">
                         <h4>Professional Team</h4>
                         <p class="mb-0">Our trained, insured cleaners ensure professional, trusted service and
@@ -45,7 +45,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="text-center">
                     <img src="{{ asset('frontend/images/icons/white/calendar.webp') }}"
-                        class="bg-color w-30 p-15 rounded-10 mb-3 wow scaleIn" alt="">
+                        class="mb-3 bg-color w-30 p-15 rounded-10 wow scaleIn" alt="">
                     <div class="relative wow fadeInUp">
                         <h4>On Time Service</h4>
                         <p class="mb-0">Reliable, punctual service that respects your schedule and exceeds
@@ -57,7 +57,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="text-center">
                     <img src="{{ asset('frontend/images/icons/white/best-price.webp') }}"
-                        class="bg-color w-30 p-15 rounded-10 mb-3 wow scaleIn" alt="">
+                        class="mb-3 bg-color w-30 p-15 rounded-10 wow scaleIn" alt="">
                     <div class="relative wow fadeInUp">
                         <h4>Transparent Pricing</h4>
                         <p class="mb-0">Affordable, upfront rates with no hidden costs. Quality cleaning at the right
@@ -69,7 +69,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="text-center">
                     <img src="{{ asset('frontend/images/icons/white/eco-friendly.webp') }}"
-                        class="bg-color w-30 p-15 rounded-10 mb-3 wow scaleIn" alt="">
+                        class="mb-3 bg-color w-30 p-15 rounded-10 wow scaleIn" alt="">
                     <div class="relative wow fadeInUp">
                         <h4>Eco Friendly</h4>
                         <p class="mb-0">We use non toxic, eco friendly products for a safe, healthy, and sparkling

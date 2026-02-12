@@ -1,8 +1,13 @@
+
 :root {
-  --primary-color: #48b1fb;
-  --primary-color-rgb: 72, 177, 251;
-  --secondary-color: #FEE74A;
-  --secondary-color-rgb: 254, 231, 74;
-  --tertiary-color: #0A3F87;
-  --tertiary-color-rgb: 10, 63, 135;
+  /* Primary Green */
+  --primary-color: #2D7A4F;
+  --primary-color-rgb: 45, 122, 79;
+  
+  --secondary-color: #C1A050;
+  --secondary-color-rgb: 193, 160, 80;
+
+  /* Tertiary Green */
+  --tertiary-color: #0A4D3C;
+  --tertiary-color-rgb: 10, 77, 60;
 }

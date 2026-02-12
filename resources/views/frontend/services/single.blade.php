@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('content')
-    <section class="bg-color-3 section-dark text-light pb-0 relative overflow-hidden">
+    <section class="relative pb-0 overflow-hidden bg-color-3 section-dark text-light">
         <img src="{{ asset('frontend/images/deco/s1.webp') }}" class="w-5 mt-min-60 abs start-10 bottom-10 wow scaleOut"
             alt="">
         <div id="shine-wrapper">
@@ -11,7 +11,7 @@
             <div class="row g-3 align-items-center">
                 <div class="col-lg-6">
                     <div class="relative z-1000">
-                        <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Residential Cleaning</h1>
+                        <h1 class="mb-2 wow fadeInUp" data-wow-delay=".2s">{{ $service->service_name }}</h1>
 
                         <div class="spacer-single"></div>
                     </div>
@@ -37,17 +37,18 @@
 
                     <div class="spacer-single"></div>
 
-                    <h3 class="mb-3">Residential Cleaning Services List</h3>
+                    <h3 class="mb-3">{{ $service->service_name }} Services List</h3>
                     <ul class="ul-style-2 fw-500">
                         @foreach ($service->services_list as $item)
                         <li>{{ $item['service'] }}</li> <!-- Access the 'service' key -->
                     @endforeach
                     </ul>
+                    <a class="btn-main wow fadeInUp" data-wow-delay=".6s" href="{{route('booking')}}">Book {{ $service->service_name }} Service</a>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="p-5 bg-color text-light rounded-1 h-100">
-                        <h3 class="mb-3">Why Choose Our Residential Cleaning Services?</h3>
+                        <h3 class="mb-3">Why Choose Our {{ $service->service_name }} Services?</h3>
                         <ul class="ol-style-1">
                             <li><strong>Experienced and Trusted Team</strong>: Our cleaners are fully trained,
                                 background-checked, and committed to delivering exceptional results.</li>
@@ -65,7 +66,7 @@
     </section>
 
 
-
+<!--
     <section class="relative bg-light">
         <div class="container">
             <div class="row g-4">
@@ -76,7 +77,7 @@
 
             <div class="row g-4">
                 <div class="col-lg-4 col-sm-6">
-                    <div class="relative bg-color-2 p-4 rounded-10">
+                    <div class="relative p-4 bg-color-2 rounded-10">
                         <div class="text-center">
                             <h5 class="mb-0">One Time or Monthly</h5>
                             <div class="spacer-30"></div>
@@ -96,7 +97,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <div class="relative bg-color-2 p-4 rounded-10">
+                    <div class="relative p-4 bg-color-2 rounded-10">
                         <div class="text-center">
                             <h5 class="mb-0">Recurring (Weekly, Biweekly)</h5>
                             <div class="spacer-30"></div>
@@ -116,7 +117,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <div class="relative bg-color-2 p-4 rounded-10">
+                    <div class="relative p-4 bg-color-2 rounded-10">
                         <div class="text-center">
                             <h5 class="mb-0">Office &amp; Commercial</h5>
                             <div class="spacer-30"></div>
@@ -137,4 +138,5 @@
             </div>
         </div>
     </section>
+-->
 @endsection

@@ -5,6 +5,8 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GalleryController;
+
 
 Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('about', [HomeController::class, 'about'])->name('about');
@@ -13,6 +15,7 @@ Route::get('contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('how', [HomeController::class, 'how'])->name('how');
 Route::get('services', [HomeController::class, 'services'])->name('services');
 Route::get('booking', [HomeController::class, 'booking'])->name('booking');
+Route::get('/galleries', [GalleryController::class, 'index'])->name('galleries');
 Route::get('/services/{slug}', [ServiceController::class, 'show'])->name('service.single');
 
 Route::post('/booking', [BookingController::class, 'store'])->name('booking.store');
