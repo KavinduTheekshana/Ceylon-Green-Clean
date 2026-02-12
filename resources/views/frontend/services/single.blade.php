@@ -43,6 +43,7 @@
                         <li>{{ $item['service'] }}</li> <!-- Access the 'service' key -->
                     @endforeach
                     </ul>
+                    <a class="btn-main wow fadeInUp" data-wow-delay=".6s" href="{{route('booking')}}">Book {{ $service->service_name }} Service</a>
                 </div>
 
                 <div class="col-lg-6">
