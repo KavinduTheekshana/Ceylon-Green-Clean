@@ -21,10 +21,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="@yield('title', 'Ceylon Deep Cleaners — Your Cleaning Partner')">
     <meta name="twitter:description" content="@yield('meta_description', 'Ceylon Deep Cleaners offers professional deep cleaning services in Derby, Nottingham, Loughborough, Leicester, Lincoln, Sheffield, Stoke-on-Trent, Birmingham, Coventry, and Chesterfield. Book now for a spotless and hygienic space!')">
-    <meta name="twitter:image" content="@yield('ogimage', asset('frontend/images/ogimage.jpg'))">
+    <meta name="twitter:image" content="@yield('ogimage', asset('frontend/images/logo/logo.png'))">
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('frontend/images/favicon.svg') }}">
+    <link rel="icon" type="image/png" href="{{ asset('frontend/images/ceylongreenclean.svg') }}">
 
     <!-- CSS Files
     ================================================== -->
