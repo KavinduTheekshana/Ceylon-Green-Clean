@@ -68,9 +68,16 @@
               <div class="row g-4">
                   <div class="col-md-12">
                       <div class="de-flex">
-                          <div class="de-flex-col">
-                              Copyright {{ date('Y') }}  - Ceylon Deep Cleaners
-                          </div>
+                        <div class="col-lg-5 col-12">
+                            <p class="copyright" style="margin-bottom: 4px;">Copyright &copy; <?= date('Y') ?> Ceylon Green Cleaners. All rights reserved.</p>
+                            <p style="color: #999; font-size: 13px; margin: 0 0 0 0;">
+                                Design &amp; Developed by 
+                                <a href="https://creatxsoftware.com/" target="_blank" rel="noopener noreferrer" 
+                                style="color: #999; text-decoration: none; font-weight: 500; transition: color 0.3s ease;">
+                                    CreatX Software
+                                </a>
+                            </p>
+                        </div>
                           {{-- <ul class="menu-simple">
                               <li><a href="#">Terms &amp; Conditions</a></li>
                               <li><a href="#">Privacy Policy</a></li>
