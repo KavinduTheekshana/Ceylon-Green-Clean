@@ -31,8 +31,10 @@ class HomeController extends Controller
         $faqs = Faq::where('is_active', true)
                    ->orderBy('id') // or orderBy('order_column')
                    ->get();
+
+        $testimonials = Testimonial::where('status', true)->get();
         
-        return view('frontend.about.index', compact('faqs'));
+        return view('frontend.about.index', compact('faqs', 'testimonials'));
     }
 
     public function booking()
