@@ -1,8 +1,13 @@
 :root {
-  --primary-color: #48b1fb;
-  --primary-color-rgb: 72, 177, 251;
-  --secondary-color: #FEE74A;
-  --secondary-color-rgb: 254, 231, 74;
-  --tertiary-color: #0A3F87;
-  --tertiary-color-rgb: 10, 63, 135;
+  /* Normal Green */
+  --primary-color: #155332; /* deep green */
+  --primary-color-rgb: 21, 83, 50;
+
+  /* Matte / Natural Gold */
+  --secondary-color: #D4AF37; /* natural gold, softer than bright yellow */
+  --secondary-color-rgb: 212, 175, 55;
+
+  /* Keep tertiary as is */
+  --tertiary-color: #06362D;
+  --tertiary-color-rgb: 6, 54, 45;
 }
