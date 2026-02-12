@@ -14,7 +14,7 @@
     <meta property="og:description" content="@yield('meta_description', 'Ceylon Deep Cleaners offers professional deep cleaning services in Derby, Nottingham, Loughborough, Leicester, Lincoln, Sheffield, Stoke-on-Trent, Birmingham, Coventry, and Chesterfield. Book now for a spotless and hygienic space!')">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://ceylondeepcleaners.co.uk">
-    <meta property="og:image" content="@yield('ogimage', asset('frontend/images/ogimage.jpg'))">
+    <meta property="og:image" content="@yield('ogimage', asset('frontend/images/logo/logo.png'))">
     <meta property="og:site_name" content="Ceylon Deep Cleaners">
 
     <!-- Twitter Card Tags -->
