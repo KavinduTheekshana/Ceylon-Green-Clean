@@ -28,7 +28,7 @@
                                 <div class="menu_side_area">
                                     <div class="h-phone xs-hide">
                                         <span>Need Help?</span>
-                                        <h5>+44 7412 080888</h5>
+                                        <h5>+94 75 674 53 31</h5>
                                     </div>
                                     <a href="{{route('booking')}}" class="btn-main">Book Service Now</a>
                                     <span id="menu-btn"></span>

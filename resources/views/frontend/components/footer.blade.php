@@ -49,7 +49,7 @@
 
 
                             <div class="text-white fw-bold"><i class="icofont-ui-call me-2 id-color-2"></i>Call / WhatsApp</div>
-                            <a href="tel:+94768002660" class="text-white footer-contact-link">+94 76 800 26 60</a><br>
+                            <a href="tel:+94756745331" class="text-white footer-contact-link">+94 75 674 53 31</a><br>
                             <a href="https://wa.me/94768002660" class="text-white footer-contact-link">+94 76 800 26 60 (WhatsApp)</a>
 
                             <div class="spacer-20"></div>
