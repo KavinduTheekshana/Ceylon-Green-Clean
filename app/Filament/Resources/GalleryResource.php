@@ -16,7 +16,9 @@ class GalleryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-photo';
 
-    protected static ?string $navigationGroup = 'Content'; // optional
+    protected static ?string $navigationGroup = 'Frontend Management ';
+
+    protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
     {
@@ -86,9 +88,9 @@ class GalleryResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index'  => Pages\ListGalleries::class,
-            'create' => Pages\CreateGallery::class,
-            'edit'   => Pages\EditGallery::class,
+            'index'  => Pages\ListGalleries::route('/'),
+            'create' => Pages\CreateGallery::route('/create'),
+            'edit'   => Pages\EditGallery::route('/{record}/edit'),
         ];
     }
 }
