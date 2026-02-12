@@ -1,12 +1,12 @@
+
 :root {
   /* Primary Green */
   --primary-color: #2D7A4F;
   --primary-color-rgb: 45, 122, 79;
   
-  /* Secondary Yellow/Gold */
-  --secondary-color: #FFB800;
-  --secondary-color-rgb: 255, 184, 0;
-  
+  --secondary-color: #C1A050;
+  --secondary-color-rgb: 193, 160, 80;
+
   /* Tertiary Green */
   --tertiary-color: #0A4D3C;
   --tertiary-color-rgb: 10, 77, 60;
