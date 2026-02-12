@@ -19,7 +19,17 @@
                                     <div class="absolute text-center text-white z-2 start-0 w-100 abs-middle fs-36">
                                         <span class="btn-main hover-op-1">Read More</span>
                                     </div>
-                                    <img src="{{ $service->image ? asset('storage/' . $service->image) : asset('frontend/images/placeholder.webp') }}" class="img-fluid hover-scale-1-2" alt="">
+                                        @if(!empty($service->image) && file_exists(public_path('storage/' . $service->image)))
+                                            <img src="{{ asset('storage/' . $service->image) }}"
+                                                style="width: 100%; height: 220px; object-fit: cover; display: block;"
+                                                class="img-fluid hover-scale-1-2"
+                                                alt="">
+                                        @else
+                                            <img src="{{ asset('frontend/images/placeholder.webp') }}"
+                                                style="width: 100%; height: 220px; object-fit: cover; display: block;"
+                                                class="img-fluid hover-scale-1-2"
+                                                alt="">
+                                        @endif
                                 </div>
                             </a>
                             <h4>{{ $service->service_name }}</h4>
