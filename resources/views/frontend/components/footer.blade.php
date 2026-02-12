@@ -1,5 +1,5 @@
   <!-- footer begin -->
-  <footer class="section-dark">
+<footer class="section-dark" style="background-color: #06362D;">
       <div class="container">
           <div class="row gx-5">
               <div class="col-lg-4 col-sm-6">
