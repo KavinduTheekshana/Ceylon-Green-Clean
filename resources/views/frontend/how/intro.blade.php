@@ -11,7 +11,7 @@
                 <div class="spacer-single"></div>
                 <div class="spacer-double"></div>
                 <div class="ps-lg-5">
-                    <div class="subtitle wow fadeInUp mb-3">CEYLON DEEP CLEANERS</div>
+                    <div class="subtitle wow fadeInUp mb-3">CEYLON GREEN CLEAN</div>
                     <h2 class="wow fadeInUp">Shine Brighter with Our Expert Touch</h2>
                     <p class="wow fadeInUp">We are a team of passionate cleaning experts who take pride in delivering the highest standard of service. With years of experience in the industry, we’ve perfected our cleaning methods to ensure every job is done right.</p>
                     <div class="spacer-10"></div>

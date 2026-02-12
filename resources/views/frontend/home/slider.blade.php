@@ -4,7 +4,7 @@
         <div class="row g-4 align-items-center justify-content-between">
             <div class="col-lg-5">
                 <div class="relative z-1000">
-                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Ceylon Deep Cleaners</div>
+                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Ceylon Green Clean</div>
                     <h1 class="wow fadeInUp" data-wow-delay=".2s">We Make Your Space <span id="type-text"></span></h1>
 
                     <p class="wow fadeInUp" data-wow-delay=".4s">Enjoy a spotless space with our expert cleaning team.

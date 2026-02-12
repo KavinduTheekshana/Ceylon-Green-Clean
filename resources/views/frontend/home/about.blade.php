@@ -3,7 +3,7 @@
         <div class="row g-4 gx-5 align-items-center">
             <div class="col-lg-6 relative">
                 <div class="relative z-1000">
-                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">About Ceylon Deep Cleaners</div>
+                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">About Ceylon Green Clean</div>
                     <h2>Bringing Clean, Comfort, and Care Together</h2>
                     <p>We are a team of passionate cleaning experts who take pride in delivering the highest standard of service. With years of experience in the industry, we’ve perfected our cleaning methods to ensure every job is done right.</p>
                 </div>

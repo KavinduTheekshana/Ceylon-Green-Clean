@@ -3,7 +3,7 @@
     <link href="{{ asset('frontend/css/datepicker.css') }}" rel="stylesheet" type="text/css">
 @endpush
 @extends('layouts.frontend')
-@section('title', "Bookings | Ceylon Deep Cleaners")
+@section('title', "Bookings | Ceylon Green Clean")
 @section('content')
     <section class="bg-color-3 section-dark relative overflow-hidden">
         <img src="{{ asset('frontend/images/deco/s1.webp') }}" class="w-10 abs start-10 wow scaleOut" alt="">

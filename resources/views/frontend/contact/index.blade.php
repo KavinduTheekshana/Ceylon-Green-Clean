@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title', "Contact | Ceylon Deep Cleaners")
+@section('title', "Contact | Ceylon Green Clean")
 @section('content')
     @include('frontend.contact.banner')
     @include('frontend.contact.info')
