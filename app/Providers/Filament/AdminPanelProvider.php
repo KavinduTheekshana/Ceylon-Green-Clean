@@ -28,10 +28,10 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->brandLogo(asset('frontend/images/logoweb.svg'))
-            ->darkModeBrandLogo(asset('frontend/images/logoweb.svg'))
+            ->brandLogo(asset('frontend/images/ceylongreenclean.webp'))
+            ->darkModeBrandLogo(asset('frontend/images/ceylongreenclean.webp'))
             ->brandLogoHeight(fn() => Auth::check() ? '2.5rem' : '3rem')
-            ->favicon(asset('frontend/images/favicon.svg'))
+            ->favicon(asset('frontend/images/ceylongreenclean.svg'))
             ->colors([
                 'primary' => Color::Cyan,
             ])
