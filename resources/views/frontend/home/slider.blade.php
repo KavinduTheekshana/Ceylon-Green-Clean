@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="{{ asset('frontend/images/misc/54235433653.png') }}"
+                <img src="{{ asset('frontend/images/misc/54235433653.webp') }}"
                     class="w-100 wow fadeInUp"
                     data-wow-delay=".8s"
                     style="border-radius: 12px;"
