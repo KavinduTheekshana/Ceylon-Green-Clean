@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="{{ asset('frontend/images/misc/7.webp')}}" class="w-100" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);" alt="">
+                <img src="{{ asset('frontend/images/misc/7.png')}}" class="w-100" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);" alt="">
             </div>
 
         </div>

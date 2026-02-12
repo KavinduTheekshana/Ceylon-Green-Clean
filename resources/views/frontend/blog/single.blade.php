@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="{{ asset('frontend/images/misc/7.webp') }}" class="w-100" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);" alt="">
+                    <img src="{{ asset('frontend/images/misc/7.png') }}" class="w-100" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);" alt="">
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                                                         alt="{{ $recent->title }}">
                                                 @endif
                                             </div>
-                                            <div class="flex-grow-1 overflow-hidden" style="min-width: 0;">
+                                            <div class="overflow-hidden flex-grow-1" style="min-width: 0;">
                                                 <h6 class="mb-1" style="line-height: 1.4; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-break: break-word;">
                                                     <a href="{{ route('blog.single', $recent->slug) }}" style="color: inherit; text-decoration: none;">
                                                         {{ Str::limit($recent->title, 45, '...') }}
