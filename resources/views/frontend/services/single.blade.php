@@ -65,7 +65,7 @@
     </section>
 
 
-
+<!--
     <section class="relative bg-light">
         <div class="container">
             <div class="row g-4">
@@ -137,4 +137,5 @@
             </div>
         </div>
     </section>
+-->
 @endsection
